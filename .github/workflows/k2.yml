@@ -17,10 +17,10 @@ on:
       - master
     paths:
       - 'k2.config'
-schedule:
-  - cron: 0 6,18 * * *
-watch:
-  types: started
+  schedule:
+    - cron: 0 6,18 * * *
+  watch:
+    types: started
 
 env:
   REPO_URL: https://github.com/coolsnowwolf/lede
