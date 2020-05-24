@@ -6,7 +6,7 @@
 # Blog: https://p3terx.com
 #=================================================
 
-name: Build OpenWrt
+name: Build OpenWrt Phicomm PSG1218 A.x K2
 
 on:
   repository_dispatch:
